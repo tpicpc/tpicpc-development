@@ -14,7 +14,7 @@ function WhyJoinSection() {
         <div className="grid md:grid-cols-3 gap-4  grid-cols-1 text-center my-10 ">
             <div className="  border-primary border-2 py-8 px-2 rounded">
                 <i className="fa-solid fa-user-tie text-primary text-6xl" aria-hidden="true"></i>
-                <h2 className="mt-3 font-bold ">Professional Development</h2>
+                <h2 className="mt-3 font-bold lg:text-xl xl:text-3xl ">Professional Development</h2>
                 <p className=" mt-6 	">As a member of the Computer Programming Club,
                     you'll have the opportunity to attend workshops, lectures, and other events that can help you
                     develop your skills and knowledge in programming and technology. This can be particularly valuable
@@ -22,7 +22,7 @@ function WhyJoinSection() {
             </div>
             <div className="  border-primary border-2 py-8 px-2 rounded">
                 <i className="fa fa-users  text-primary text-6xl" aria-hidden="true"></i>
-                <h2 className="mt-3 font-bold ">Networking Opportunities</h2>
+                <h2 className="mt-3 font-bold lg:text-xl xl:text-3xl ">Networking Opportunities</h2>
                 <p className=" mt-6 ">Joining the Computer Programming Club allows
                     you to connect with other students who share your interests in programming and technology. This can
                     provide you with the chance to collaborate on projects, exchange ideas, and learn from one another.
@@ -30,7 +30,7 @@ function WhyJoinSection() {
             </div>
             <div className=" border-primary border-2 py-8 px-2 rounded">
                 <i className="fa-solid fa-chart-line text-primary text-6xl" aria-hidden="true"></i>
-                <h2 className="mt-3 font-bold ">Fun and Engaging Activities</h2>
+                <h2 className="mt-3 font-bold lg:text-xl xl:text-3xl">Fun and Engaging Activities</h2>
                 <p className=" mt-6 "> The Computer Programming Club often hosts
                     events and activities that are both educational and enjoyable. This can include hackathons, coding
                     competitions, guest speakers, and more. By joining the club, you'll have the chance to participate
