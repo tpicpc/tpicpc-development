@@ -6,7 +6,7 @@ function StudioCNavbar(props: any) {
   return (
     <div>
       <div className="flex items-center justify-between p-5">
-        <Link className="text-[#4a83c4] flex items-center" href="/studio">
+        <Link className="text-[#4a83c4] flex items-center" href="/">
           <ArrowUturnLeftIcon className="h-6 w-6 text-[#4a83c4] mr-2" />
           Go to Website
         </Link>
