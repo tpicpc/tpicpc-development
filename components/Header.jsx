@@ -6,7 +6,7 @@ import Link from "next/link";
 function Header() {
   return (
     <header className="bg-white">
-      <nav className="container bg-white flex justify-between items-center">
+      <nav className="container bg-white flex justify-between items-center py-5">
         <Link href="/">
           <img
             className="w-20 cursor-pointer mt-3"
