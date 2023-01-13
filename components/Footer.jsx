@@ -1,5 +1,3 @@
-import React from "react";
-
 function Footer() {
   return (
     <footer className="bg-slate-800">
@@ -47,8 +45,7 @@ function Footer() {
           </div>
         </div>
         <p className="text-center bg-slate-800 text-white p-8">
-          {" "}
-          2023 &copy;TPI - Computer Programming Club
+          {new Date().getFullYear()} &copy;TPI - Computer Programming Club
         </p>
       </div>
     </footer>

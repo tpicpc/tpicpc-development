@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function HeroSection() {
   return (
     <section id="hero">
@@ -14,12 +16,12 @@ function HeroSection() {
             biggest club in Thakurgaon Polytechnic Institute. We work together
             to explore every field of Computer Science .
           </p>
-          <a
-            href="about.html"
+          <Link
+            href="/about"
             className="mt-8 bg-primary py-3 px-6  rounded text-white hover:bg-secondary"
           >
             Read More
-          </a>
+          </Link>
         </div>
       </div>
     </section>

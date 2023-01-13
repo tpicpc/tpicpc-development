@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function AboutUs() {
@@ -39,12 +40,12 @@ function AboutUs() {
                 </p>
               </div>
               <div className="pt-5">
-                <a
-                  href="about.html"
+                <Link
+                  href="/about"
                   className="mt-8  bg-primary py-3 px-6  rounded text-white hover:bg-secondary"
                 >
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
