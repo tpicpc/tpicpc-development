@@ -43,13 +43,19 @@ function page() {
                       {blogs.title}
                     </h1>
                     <p className="leading-relaxed mb-3">
-                      Photo booth fam kinfolk cold-pressed sriracha leggings
-                      jianbing microdosing tousled waistcoat.
+                      <span>Tropic : </span> 
+                      {
+                        blogs.categories.map((category, index) => (
+                          <span key={index} className="font-medium">
+                            {category}, 
+                          </span>
+                        ))}
+        
                     </p>
                     <div className="flex items-center flex-wrap ">
                       <a
                         target="_blank"
-                        href="${blogs.link}"
+                        href={blogs.link}
                         className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
                       >
                         Learn More
