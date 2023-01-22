@@ -6,16 +6,16 @@ import { useState } from "react";
 // https://www.svgrepo.com/svg/473701/linkedin     this link to collect svg icons
 
 function Header() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <>
       <header className="bg-white">
         <div className="border-primary border-b-[2px] ">
-          <nav className="container bg-white flex justify-between items-center py-5 ">
+          <nav className="container bg-white flex justify-between items-center  ">
             <div className="flex items-center justify-center">
               <Link href="/">
                 <img
-                  className="w-20 cursor-pointer mt-3"
+                  className="w-20 cursor-pointer md:mt-3"
                   src="tpicpclogo.png"
                   alt=""
                 />
@@ -209,8 +209,8 @@ function Header() {
         </div>
         {/* Mobile Navbar */}
         {isOpen && (
-          <div className={`container md:hidden mt-4 `}>
-            <ul className="flex flex-col justify-center gap-4 items-center">
+          <div className={`container md:hidden py-5 `}>
+            <ul className="flex flex-col justify-center gap-4 items-center ">
               <li>
                 <Link
                   className="hover:text-primary  decoration-2 font-bold"
@@ -342,7 +342,7 @@ function Header() {
                 </a>
               </li>
             </ul>
-            <div className="flex justify-center text-center mx-auto items-center py-5 ">
+            <div className="flex justify-center mt-5 text-center mx-auto items-center ">
               <div>
                 <a
                   href="https://forms.gle/DasAW1sHs5RfbYNb9"

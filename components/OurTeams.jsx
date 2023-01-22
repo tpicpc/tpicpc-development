@@ -24,7 +24,7 @@ function OurTeams() {
             <img
               alt="Mursalin Islam Mubin"
               className="w-[100px] h-[100px] lg:w-[150px] lg:h-[150px]   rounded-full p-1 ring-primary transform 
-                    transition duration-1000 hover:scale-125"
+                        transition duration-1000 hover:scale-125"
               src="/team/mubin.jpg"
             />
           </div>
@@ -41,7 +41,7 @@ function OurTeams() {
             <img
               alt="Sahinur Islam"
               className="w-[150px] h-[150px] lg:w-[200px] lg:h-[200px]  rounded-full  p-1 ring-primary transform 
-                    transition duration-1000 hover:scale-125 "
+                        transition duration-1000 hover:scale-125 "
               src="/team/sahinur.jpg"
             />
           </div>
@@ -58,7 +58,7 @@ function OurTeams() {
             <img
               alt="Masipul Islam Siam"
               className="w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] rounded-full p-1 ring-primary transform 
-                    transition duration-1000 hover:scale-125"
+                        transition duration-1000 hover:scale-125"
               src="/team/siam.jpg"
             />
           </div>
@@ -66,56 +66,18 @@ function OurTeams() {
             <h2 className="text-primary font-bold text-xl title-font  mt-3">
               Masipul Islam Siam
             </h2>
-            <p className=" text-sm mt-1 font-bold">Vice President</p>
+            <p className=" text-sm mt-1 font-bold">General Secretary</p>
           </div>
         </div>
       </div>
       <div className="grid lg:grid-cols-4 xl:grid-cols-5 md:grid-cols-2 grid-rows-1 mt-10">
-        <div className="flex flex-col justify-center items-center text-center md:my-8 ">
-          <div className="overflow-hidden ring-2 rounded-full ring-cpcYellow">
-            {" "}
-            <img
-              alt="Dipok Roy Dip"
-              className="w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] rounded-full p-1 ring-cpcYellow transform 
-                    transition duration-1000 hover:scale-125"
-              src="/team/dipok1.jpg"
-            />
-          </div>
-          <div>
-            <h2 className="text-primary font-bold text-lg title-font  mt-3">
-              Dipok Roy Dip
-            </h2>
-            <p className=" text-[12px] mt-1 font-bold">
-              Vice President (Development)
-            </p>
-          </div>
-        </div>
-        <div className="flex flex-col justify-center items-center text-center  mt-6 md:mt-0">
-          <div className="overflow-hidden ring-2 rounded-full ring-cpcYellow">
-            {" "}
-            <img
-              alt="Nimur Rahman "
-              className="w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] rounded-full ring-2 p-1 ring-cpcYellow transform 
-                    transition duration-1000 hover:scale-125"
-              src="/team/Nimur.jpg"
-            />
-          </div>
-          <div>
-            <h2 className="text-primary font-bold text-lg title-font  mt-3">
-              Nimur Rahman{" "}
-            </h2>
-            <p className=" text-[12px] mt-1 font-bold">
-              Vice President(Development)
-            </p>
-          </div>
-        </div>
         <div className="flex flex-col justify-center items-center text-center  mt-6 md:mt-0">
           <div className="overflow-hidden ring-2 rounded-full ring-cpcYellow">
             {" "}
             <img
               alt="Sajjad Ul Islam"
               className="w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] rounded-full ring-2 p-1 ring-cpcYellow transform 
-                    transition duration-1000 hover:scale-125"
+                        transition duration-1000 hover:scale-125"
               src="/team/Sajjad.jpg"
             />
           </div>
@@ -123,7 +85,9 @@ function OurTeams() {
             <h2 className="text-primary font-bold text-lg title-font  mt-3">
               Sajjad Ul Islam
             </h2>
-            <p className=" text-[12px] mt-1 font-bold">Vice President</p>
+            <p className=" text-[12px] mt-1 font-bold">
+              Assistant General Secretary
+            </p>
           </div>
         </div>
         <div className="flex flex-col justify-center items-center text-center   mt-6 md:mt-0">
@@ -132,7 +96,7 @@ function OurTeams() {
             <img
               alt="Md Abir"
               className="w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] rounded-full ring-2 p-1 ring-cpcYellow transform 
-                    transition duration-1000 hover:scale-125"
+                        transition duration-1000 hover:scale-125"
               src="/team/abir.png"
             />
           </div>
@@ -140,16 +104,71 @@ function OurTeams() {
             <h2 className="text-primary font-bold text-lg title-font  mt-3">
               Md Abir
             </h2>
-            <p className=" text-[12px] mt-1 font-bold">Vice President</p>
+            <p className=" text-[12px] mt-1 font-bold">
+              Assistant General Secretary
+            </p>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center text-center   mt-6 lg:mt-0">
+
+        <div className="flex flex-col justify-center items-center text-center    pt-6 lg:mt-0">
+          <div className="overflow-hidden ring-2 rounded-full ring-cpcYellow">
+            {" "}
+            <img
+              alt=" Mehedi Hasan"
+              className="w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] rounded-full ring-2 p-1 ring-cpcYellow transform 
+                        transition duration-1000 hover:scale-125"
+              src="/team/murad.jpg"
+            />
+          </div>
+          <div>
+            <h2 className="text-primary font-bold text-lg title-font  mt-3">
+              Mehedi Hasan
+            </h2>
+            <p className=" text-[12px] mt-1 font-bold">Treasurer</p>
+          </div>
+        </div>
+        <div className="flex flex-col justify-center items-center text-center md:my-8 ">
+          <div className="overflow-hidden ring-2 rounded-full ring-cpcYellow">
+            {" "}
+            <img
+              alt="Dipok Roy Dip"
+              className="w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] rounded-full p-1 ring-cpcYellow transform 
+                        transition duration-1000 hover:scale-125"
+              src="/team/dipok1.jpg"
+            />
+          </div>
+          <div>
+            <h2 className="text-primary font-bold text-lg title-font  mt-3">
+              Dipok Roy Dip
+            </h2>
+            <p className=" text-[12px] mt-1 font-bold">Executive Member </p>
+          </div>
+        </div>
+        <div className="flex flex-col justify-center items-center text-center  mt-6 md:mt-0">
+          <div className="overflow-hidden ring-2 rounded-full ring-cpcYellow">
+            {" "}
+            <img
+              alt="Nimur Rahman "
+              className="w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] rounded-full ring-2 p-1 ring-cpcYellow transform 
+                        transition duration-1000 hover:scale-125"
+              src="/team/Nimur.jpg"
+            />
+          </div>
+          <div>
+            <h2 className="text-primary font-bold text-lg title-font  mt-3">
+              Nimur Rahman{" "}
+            </h2>
+            <p className=" text-[12px] mt-1 font-bold">Executive Member</p>
+          </div>
+        </div>
+
+        <div className="flex flex-col justify-center items-center text-center   pt-6 lg:mt-0">
           <div className="overflow-hidden ring-2 rounded-full ring-cpcYellow">
             {" "}
             <img
               alt="Mst Rinky Akter"
               className="w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] rounded-full ring-2 p-1 ring-cpcYellow transform 
-                    transition duration-1000 hover:scale-125"
+                        transition duration-1000 hover:scale-125"
               src="/team/rinky.jpg"
             />
           </div>
@@ -157,9 +176,42 @@ function OurTeams() {
             <h2 className="text-primary font-bold text-lg title-font  mt-3">
               Mst Rinky Akter
             </h2>
-            <p className=" text-[12px] mt-1 font-bold">
-              Vice President (Development)
-            </p>
+            <p className=" text-[12px] mt-1 font-bold">Executive Member</p>
+          </div>
+        </div>
+
+        <div className="flex flex-col justify-center items-center text-center    pt-6 lg:mt-0">
+          <div className="overflow-hidden ring-2 rounded-full ring-cpcYellow">
+            {" "}
+            <img
+              alt=" Sakib Hossain"
+              className="w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] rounded-full ring-2 p-1 ring-cpcYellow transform 
+                        transition duration-1000 hover:scale-125"
+              src="/team/Sakib.png"
+            />
+          </div>
+          <div>
+            <h2 className="text-primary font-bold text-lg title-font  mt-3">
+              Sakib Hossain
+            </h2>
+            <p className=" text-[12px] mt-1 font-bold">Creative Desiginer</p>
+          </div>
+        </div>
+        <div className="flex flex-col justify-center items-center text-center   pt-6 lg:mt-0">
+          <div className="overflow-hidden ring-2 rounded-full ring-cpcYellow">
+            {" "}
+            <img
+              alt=" Abdullah Al Kawsar"
+              className="w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] rounded-full ring-2 p-1 ring-cpcYellow transform 
+                        transition duration-1000 hover:scale-125"
+              src="/team/Abdullah.png"
+            />
+          </div>
+          <div>
+            <h2 className="text-primary font-bold text-lg title-font  mt-3">
+              Abdullah Al Kawsar
+            </h2>
+            <p className=" text-[12px] mt-1 font-bold">Executive Member</p>
           </div>
         </div>
       </div>
