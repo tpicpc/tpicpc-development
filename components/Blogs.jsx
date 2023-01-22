@@ -18,7 +18,9 @@ function Blogs() {
           TPI's computer programming club blog.
         </p>
       </div>
-      <section className="text-gray-600 body-font">
+
+      <h1 className="text-4xl text-center py-52">Coming soon...</h1>
+      {/* <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3">
@@ -224,7 +226,7 @@ function Blogs() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </section>
   );
 }

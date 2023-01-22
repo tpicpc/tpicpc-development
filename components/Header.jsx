@@ -10,7 +10,7 @@ function Header() {
   return (
     <>
       <header className="bg-white">
-        <div className="border-primary border-b-[2px] ">
+        <div className="border-primary border-b-[2px] md:border-none">
           <nav className="container bg-white flex justify-between items-center  ">
             <div className="flex items-center justify-center">
               <Link href="/">

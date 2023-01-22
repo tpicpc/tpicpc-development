@@ -1,13 +1,15 @@
 function Footer() {
+  // copy right year
+  const year = new Date().getFullYear();
   return (
-    <footer className="bg-slate-800 ">
+    <footer className="bg-slate-800">
       <div className="container">
         <div className="lg:flex lg:justify-between">
-          <div className=" flex justify-center items-center pt-10 lg:pt-0">
+          <div className=" flex justify-center items-center">
             <img
-              className=" md:w-[150px] lg:w-32"
-              src="/footerLogo.png"
-              alt="tpicpc"
+              className="md:h-[150px] md:w-[150px] lg:h-32 lg:w-32"
+              src="/footerLogo1.png"
+              alt=""
             />
           </div>
           <div className="text-center lg:w-[500px] mt-10 ">
@@ -22,8 +24,8 @@ function Footer() {
             <div>
               <h1 className="text-3xl text-white text-center">Find Us On</h1>
             </div>
-            <div className="flex justify-center items-center mt-6 space-x-3">
-            <a
+            <div className="flex justify-center items-center mt-6">
+              <a
                 className="cursor-pointer md:px-2 text-2xl mt-2"
                 target="_blank"
                 href="https://www.facebook.com/tpicpc"
@@ -119,11 +121,39 @@ function Footer() {
                   </g>
                 </svg>
               </a>
+
+              {/* <a target="_blank" href="https://www.facebook.com/tpicpc"><i
+                                className="fa-brands fa-facebook-f hover:text-primary text-2xl p-3 text-white"></i></a>
+                        <a target="_blank" href="https://www.youtube.com/@tpicpc"><i
+                                className="fa-brands fa-youtube hover:text-cpcRed text-2xl p-3 text-white"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/tpicpc"><i
+                                className="fa-brands fa-instagram hover:text-primary text-2xl p-3 text-white"></i></a>
+                        <a target="_blank" href="https://github.com/tpicpc"><i
+                                className="fa-brands fa-github hover:text-primary text-2xl p-3 text-white"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/tpicpc/"><i
+                                className="fa-brands fa-linkedin-in hover:text-cpcRed text-2xl p-3 text-white"></i></a> */}
+            </div>
+            <div className="text-center mt-5">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/groups/thakurgaonpolytechnicinstituteofficial"
+              >
+                <h1 className="text-white text-xl hover:text-primary hover:underline">
+                  Tpi Official Group
+                </h1>
+              </a>
+            </div>
+            <div className="text-center mt-5">
+              <a target="_blank" href="https://www.facebook.com/groups/tpicpc">
+                <h1 className="text-white text-xl hover:text-primary hover:underline">
+                  TPI CPC Group
+                </h1>
+              </a>
             </div>
           </div>
         </div>
-        <p className="text-center bg-slate-800 text-white p-8">
-          {new Date().getFullYear()} &copy;TPI - Computer Programming Club
+        <p className="text-center  text-white py-8  lg:pr-[100px] ">
+          {year} &copy;TPI - Computer Programming Club
         </p>
       </div>
     </footer>
