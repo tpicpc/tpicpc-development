@@ -1,3 +1,4 @@
+import { getDefaultDocumentNode } from './structure';
 import { defineConfig, StudioNavbar } from 'sanity'
 import { deskTool } from 'sanity/desk'
 import { visionTool } from '@sanity/vision'
@@ -16,7 +17,9 @@ export default defineConfig({
   projectId,
   dataset,
 
-  plugins: [deskTool(), visionTool()],
+  plugins: [deskTool({
+    defaultDocumentNode: getDefaultDocumentNode,
+  }), visionTool()],
 
   schema: {
     types: schemaTypes,
