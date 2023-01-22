@@ -14,7 +14,7 @@ const query = groq`
 
 function page() {
   return (
-    <div>
+    <div className="mt-[70px] lg:mt-[90px]">
       <HeroSection />
       <WhyJoinSection />
       <TeachersSection />
