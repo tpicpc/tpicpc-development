@@ -40,16 +40,16 @@ function AboutUs() {
                 </p>
               </div>
               <div className="pt-5">
-                <a
-                  href="about.html"
-                  className="mt-8  bg-primary py-3 px-6  rounded text-white hover:bg-secondary"
+                <Link
+                  href="/about"
+                  className="mt-8 bg-primary py-3 px-6  rounded text-white hover:bg-secondary"
                 >
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
-          <div className="items-center lg:my-auto flex lg:ml-16">
+          <div className="items-center lg:my-auto flex lg:ml-16 ">
             {/* <!-- <img className="w-full " src="https://dummyimage.com/700x400" alt=""> --> */}
             <img
               className="w-full lg:w-[700px] lg:h-400"

@@ -209,10 +209,11 @@ function Header() {
         </div>
         {/* Mobile Navbar */}
         {isOpen && (
-          <div className={`container md:hidden py-5 `}>
+          <div className={`container md:hidden py-5  transition-transform  `}>
             <ul className="flex flex-col justify-center gap-4 items-center ">
               <li>
                 <Link
+                onClick={() => setIsOpen(!isOpen)}
                   className="hover:text-primary  decoration-2 font-bold"
                   href="/"
                 >
@@ -221,6 +222,7 @@ function Header() {
               </li>
               <li>
                 <Link
+                onClick={() => setIsOpen(!isOpen)}
                   className="hover:text-primary decoration-2 font-bold"
                   href="/team"
                 >
@@ -229,6 +231,7 @@ function Header() {
               </li>
               <li>
                 <Link
+                onClick={() => setIsOpen(!isOpen)}
                   className="hover:text-primary  decoration-2 font-bold"
                   href="/blogs"
                 >
@@ -237,6 +240,7 @@ function Header() {
               </li>
               <li>
                 <Link
+                onClick={() => setIsOpen(!isOpen)}
                   className="hover:text-primary  decoration-2 font-bold"
                   href="/events"
                 >

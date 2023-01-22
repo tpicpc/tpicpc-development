@@ -7,7 +7,7 @@ function Footer() {
         <div className="lg:flex lg:justify-between">
           <div className=" flex justify-center items-center">
             <img
-              className="md:h-[150px] md:w-[150px] lg:h-32 lg:w-32"
+              className="pt-10 md:pt-0  md:w-[150px] lg:w-32"
               src="/footerLogo1.png"
               alt=""
             />
@@ -24,7 +24,7 @@ function Footer() {
             <div>
               <h1 className="text-3xl text-white text-center">Find Us On</h1>
             </div>
-            <div className="flex justify-center items-center mt-6">
+            <div className="flex gap-4 md:gap-0 justify-center items-center mt-6">
               <a
                 className="cursor-pointer md:px-2 text-2xl mt-2"
                 target="_blank"

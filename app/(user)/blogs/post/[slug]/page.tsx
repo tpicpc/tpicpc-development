@@ -36,8 +36,8 @@ async function Post({ params: { slug } }: Props) {
   console.log(post);
   return (
     <>
-     <div className="container">
-     <article className="px-10 pb-28">
+     <div className="md:container mt-5">
+     <article className="px-5 md:px-10 pb-28">
         <section className="space-y-2 border border-primary text-white">
           <div className="relative min-h-56 flex flex-col md:flex-row justify-between">
             <div className="absolute top-0 w-full h-full opacity-10 blur-sm p-10">
