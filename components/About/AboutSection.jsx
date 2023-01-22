@@ -1,13 +1,10 @@
-
-
 function AboutSection() {
   return (
     <>
-      {" "}
       <section className="text-gray-600 body-font">
         <div className="container flex px-5 py-24 md:flex-col-reverse flex-col-reverse lg:flex-row items-center">
-          <div className="mr-10 lg:w-4/5">
-            <p className="mt-8 text-justify md:text-justify lg:text-justify">
+          <div className="lg:w-4/5">
+            <p className="mt-8 text-justify md:text-justify lg:text-justify lg:mr-12">
               Welcome to the TPI Computer Programming Club! We are a group of
               students who are passionate about technology and programming. Our
               goal is to provide a supportive and welcoming environment for
@@ -25,25 +22,26 @@ function AboutSection() {
           </div>
           <div className="w-full">
             <img
-              className="object-cover object-center rounded"
+              className="object-cover object-center rounded lg:w-[700px] lg:h-400 "
               alt="hero"
-              src="https://dummyimage.com/700x400"
+              src="/group-img/1673766130925.jpg"
             />
           </div>
         </div>
       </section>
+
       <section className="text-gray-600 body-font">
-        <div className="container flex px-5 py-24 md:flex-col flex-col lg:flex-row items-center  ">
-          <div className="w-full">
+        <div className="container flex px-5 py-24 md:flex-col flex-col lg:flex-row items-center">
+          <div className="w-full lg:mr-10">
             <img
-              className="object-cover object-center rounded"
+              className="object-cover object-center rounded lg:w-[700px] lg:h-400 mt-5"
               alt="hero"
-              src="https://dummyimage.com/700x400"
+              src="/group-img/about-2.jpg"
             />
           </div>
 
           <div className="lg:w-4/5">
-            <p className="mt-8 text-justify md:text-justify lg:text-justify">
+            <p className="mt-8 text-justify md:text-justify lg:text-justify lg:mr-12">
               In addition to educational and professional development events,
               the TPI Computer Programming Club also hosts fun and engaging
               activities such as hackathons, coding competitions, and guest
