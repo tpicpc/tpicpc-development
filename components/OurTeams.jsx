@@ -197,7 +197,7 @@ function OurTeams() {
             <p className=" text-[12px] mt-1 font-bold">Creative Desiginer</p>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center text-center   pt-6 lg:mt-0">
+        {/* <div className="flex flex-col justify-center items-center text-center   pt-6 lg:mt-0">
           <div className="overflow-hidden ring-2 rounded-full ring-cpcYellow">
             {" "}
             <img
@@ -213,7 +213,7 @@ function OurTeams() {
             </h2>
             <p className=" text-[12px] mt-1 font-bold">Executive Member</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

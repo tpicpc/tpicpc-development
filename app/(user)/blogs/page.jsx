@@ -33,8 +33,10 @@ export default async function page() {
   const posts = await client.fetch(query);
   return (
     <>
-      <OtherHeroSection title="Blogs" />
-      <BlogList posts={posts} />
+      <div >
+        <OtherHeroSection title="Blogs" />
+        <BlogList posts={posts} />
+      </div>
     </>
   );
 }

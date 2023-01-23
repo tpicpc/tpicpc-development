@@ -4,7 +4,7 @@ import OtherHeroSection from "../../../components/OtherHeroSection";
 
 function page() {
   return (
-    <div className="mt-[70px] lg:mt-[90px]" >
+    <div >
       <OtherHeroSection title="Upcoming Events" />
       <EventCard />
     </div>

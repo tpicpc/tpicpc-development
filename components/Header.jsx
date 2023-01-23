@@ -9,7 +9,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <header className="bg-white border-primary border-b-[2px] fixed top-0 z-50 w-full ">
+      <header className="bg-white border-primary border-b-[2px] sticky top-0 z-50 ">
         <div className={`${isOpen && "border-primary border-b-[2px]"}  md:border-none`}>
           <nav className="container bg-white flex justify-between items-center  ">
             <div className="flex items-center justify-center">
