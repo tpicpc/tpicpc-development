@@ -19,8 +19,8 @@ function Blogs() {
         </p>
       </div>
 
-      {/* <h1 className="text-4xl text-center py-52">Coming soon...</h1> */}
-      <h1 className=" text-center  py-52"><a className="bg-red-700 animate-bounce w-6 h-6 font-semibold text-2xl  hover:bg-green-700 text-white p-4 rounded-md" href="https://tinyurl.com/TPIQZ" target="_blank" rel="noopener noreferrer">TPI CPC Quiz Competition</a></h1>
+      <h1 className="text-4xl text-center py-52">Coming soon...</h1>
+      {/* <h1 className=" text-center  py-52"><a className="bg-red-700 animate-bounce w-6 h-6 font-semibold text-2xl  hover:bg-green-700 text-white p-4 rounded-md" href="https://tinyurl.com/TPIQZ" target="_blank" rel="noopener noreferrer">TPI CPC Quiz Competition</a></h1> */}
       
       {/* <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
