@@ -19,7 +19,8 @@
     "react-dom": "18.2.0",
     "sanity": "^3.0.0",
     "sanity-plugin-iframe-pane": "^2.1.1",
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.2.0",
+    "swiper": "^9.3.2"
   },
   "devDependencies": {
     "@sanity/eslint-config-studio": "^2.0.1",

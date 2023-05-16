@@ -1,8 +1,15 @@
+"use client"
 import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+
 
 function HeroSection() {
   return (
     <section id="hero">
+    {/* <section > */}
       <div className="container">
         <div className="py-10 xl:w-3/6 md:w-4/6 sm:w-5/6">
           <h4 className="xl:text-4xl md:text-3xl sm:text-xl font-bold text-cpcYellow">
@@ -24,6 +31,18 @@ function HeroSection() {
           </Link>
         </div>
       </div>
+      {/* <div className="container">
+        <Swiper className="mySwiper">
+          <SwiperSlide>
+            <div className="relative">
+            <h1 className="absolute">hello would</h1>
+            <img src="/group-img/1673766130925.jpg" alt="" />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide><img src="/group-img/1673766130925.jpg" alt="" /></SwiperSlide>
+          <SwiperSlide><img src="/group-img/1673766130925.jpg" alt="" /></SwiperSlide>
+        </Swiper>
+      </div> */}
     </section>
   );
 }
