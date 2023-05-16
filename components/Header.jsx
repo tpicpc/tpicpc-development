@@ -156,7 +156,7 @@ function Header() {
                 </li>
               </ul>
             </div>
-            <div className="hidden md:flex items-center gap-6">
+            {/* <div className="hidden md:flex items-center gap-6">
               <a
                 href="https://forms.gle/DasAW1sHs5RfbYNb9"
                 target="_blank"
@@ -168,6 +168,20 @@ function Header() {
                 className="hidden md:flex bg-primary text-white px-5 py-2 rounded-full hover:bg-secondary relative "
               >
                 Join Now
+              </a>
+            </div> */}
+            <div className="hidden md:flex items-center gap-6">
+              <a
+                href="https://forms.gle/DasAW1sHs5RfbYNb9"
+                target="_blank"
+                className="hidden md:flex bg-red-700 text-white px-5 py-2 rounded-full hover:bg-secondary  absolute h-10 w-[100px]"
+              ></a>
+              <a
+                href="https://forms.gle/DasAW1sHs5RfbYNb9"
+                target="_blank"
+                className="hidden md:flex bg-red-700 text-white px-5 py-2 rounded-full hover:bg-red-800 relative "
+              >
+                   Registration Closed
               </a>
             </div>
             <div className="md:hidden ">
@@ -346,7 +360,7 @@ function Header() {
                 </a>
               </li>
             </ul>
-            <div className="flex justify-center mt-5 text-center mx-auto items-center ">
+            {/* <div className="flex justify-center mt-5 text-center mx-auto items-center ">
               <div>
                 <a
                   href="https://forms.gle/DasAW1sHs5RfbYNb9"
@@ -359,6 +373,22 @@ function Header() {
                   className="flex md:hidden bg-primary text-white px-5 py-2 rounded-full hover:bg-secondary relative "
                 >
                   Join Now
+                </a>
+              </div>
+            </div> */}
+            <div className="flex justify-center mt-5 text-center mx-auto items-center ">
+              <div>
+                <a
+                  href="https://forms.gle/DasAW1sHs5RfbYNb9"
+                  target="_blank"
+                  className="flex md:hidden items-center bg-red-600 text-white px-5 py-2 rounded-full hover:bg-red-700  absolute h-10 w-[100px]"
+                ></a>
+                <a
+                  href="https://forms.gle/DasAW1sHs5RfbYNb9"
+                  target="_blank"
+                  className="flex md:hidden bg-red-700 text-white px-5 py-2 rounded-full hover:bg-red-800 relative "
+                >
+                  Registration Closed
                 </a>
               </div>
             </div>
