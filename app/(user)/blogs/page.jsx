@@ -5,6 +5,10 @@ import { client } from "../../../lib/sanity.client";
 import PreviewSuspense from "../../../components/PreviewSuspense";
 import BlogList from "../../../components/BlogList";
 
+export const metadata = {
+  title: 'Blogs | TPI - Computer Programming Club',
+};
+
 const query = groq`
 *[_type == "post"]{
   ...,

@@ -3,6 +3,10 @@ import OtherHeroSection from "../../../components/OtherHeroSection";
 import TeacherSection from "../../../components/TeachersSection";
 import OurTeams from "../../../components/OurTeams";
 
+export const metadata = {
+  title: 'Team | TPI - Computer Programming Club',
+};
+
 function page() {
   return (
     <div>

@@ -3,6 +3,10 @@ import React, { useEffect } from "react";
 import AboutSection from "../../../components/About/AboutSection";
 import OtherHeroSection from "../../../components/OtherHeroSection";
 
+export const metadata = {
+  title: 'About Us | TPI - Computer Programming Club',
+};
+
 function page() {
 
   // when visiting this page, the page will be scrolled to the top
