@@ -12,12 +12,11 @@ function ContractUs() {
 
     </div>
     <div className=" px-5 py-24 mx-auto flex md:flex-nowrap flex-wrap">
-
         <div
             className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 md:flex items-end justify-start relative">
             <iframe width="100%" height="100%" className="absolute inset-0" frameBorder="0" title="map" marginHeight="0"
                 marginWidth="0" scrolling="no"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1105.09347877263!2d88.44234391635742!3d26.03866329405573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e4eb618da025ab%3A0x95cf23c7ca0cb9e3!2sThakurgaon%20Polytechnic%20Institute!5e1!3m2!1sen!2sbd!4v1673532614259!5m2!1sen!2sbd"></iframe>
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1105.092316791561!2d88.44204496963238!3d26.03878660355258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e4ebe22c241dc5%3A0x11eacbc887a18571!2sTPI%20-%20Computer%20and%20Programming%20Club!5e1!3m2!1sen!2sbd!4v1685249498585!5m2!1sen!2sbd"></iframe>
             <div className="backdrop-blur-md bg-white/30 relative flex flex-wrap py-6 rounded shadow-md">
                 <div className="lg:w-1/2 px-6">
                     <h2 className="title-font font-semibold tracking-widest text-xs text-white">ADDRESS</h2>
