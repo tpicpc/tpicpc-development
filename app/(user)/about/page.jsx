@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 import React, { useEffect } from "react";
 import AboutSection from "../../../components/About/AboutSection";
 import OtherHeroSection from "../../../components/OtherHeroSection";
@@ -11,9 +11,9 @@ export const metadata = {
 function page() {
 
   // when visiting this page, the page will be scrolled to the top
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   return (
     <div>
