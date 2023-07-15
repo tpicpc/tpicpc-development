@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import AboutSection from "../../../components/About/AboutSection";
 import OtherHeroSection from "../../../components/OtherHeroSection";
+// import Head from 'next/head'
 
 export const metadata = {
   title: 'About Us | TPI - Computer Programming Club',
@@ -16,6 +17,9 @@ function page() {
 
   return (
     <div>
+      {/* <Head>
+        <title>About Us | TPI - Computer Programming Club</title>
+      </Head> */}
       <OtherHeroSection title="About Us" />
       <AboutSection />
     </div>
