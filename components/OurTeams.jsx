@@ -1,5 +1,7 @@
 
 
+
+
 function OurTeams() {
   return (
     <section className="container mt-20">
@@ -11,7 +13,7 @@ function OurTeams() {
         className="flex flex-col text-center w-full mt-20 mb-10 py-2"
       >
         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-          Meet The Team
+          Meet The 2023 EX Team
         </h1>
         <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
           The core members of TPI Computer & Programming Club

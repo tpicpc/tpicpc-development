@@ -4,7 +4,7 @@ import { client } from "../../../../../lib/sanity.client";
 import urlFor from "../../../../../lib/urlFor";
 import { PortableText } from "@portabletext/react";
 import { RichTextComponents } from "../../../../../components/RichTextComponents";
-import Head from "next/head";
+
 
 type Props = {
   params: {
@@ -24,6 +24,7 @@ export async function generateStaticParams() {
   }));
 }
 
+
 async function Post({ params: { slug } }: Props) {
   const query = groq`
     *[_type == "post" && slug.current == $slug][0]{
@@ -34,7 +35,7 @@ async function Post({ params: { slug } }: Props) {
     `;
 
   const post: Post = await client.fetch(query, { slug });
-  console.log(post);
+
   return (
     <>
 
