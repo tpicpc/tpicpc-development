@@ -156,7 +156,7 @@ function Header() {
                 </li>
               </ul>
             </div>
-            {/* <div className="hidden md:flex items-center gap-6">
+            <div className="hidden md:flex items-center gap-6">
               <a
                 href="https://forms.gle/DasAW1sHs5RfbYNb9"
                 target="_blank"
@@ -169,8 +169,8 @@ function Header() {
               >
                 Join Now
               </a>
-            </div> */}
-            <div className="hidden md:flex items-center gap-6">
+            </div>
+            {/* <div className="hidden md:flex items-center gap-6">
 
               <a
                 href="https://forms.gle/DasAW1sHs5RfbYNb9"
@@ -179,7 +179,7 @@ function Header() {
               >
                    Registration Closed
               </a>
-            </div>
+            </div> */}
             <div className="md:hidden ">
               {!isOpen ? (
                 <svg
@@ -356,7 +356,7 @@ function Header() {
                 </a>
               </li>
             </ul>
-            {/* <div className="flex justify-center mt-5 text-center mx-auto items-center ">
+            <div className="flex justify-center mt-5 text-center mx-auto items-center ">
               <div>
                 <a
                   href="https://forms.gle/DasAW1sHs5RfbYNb9"
@@ -371,8 +371,8 @@ function Header() {
                   Join Now
                 </a>
               </div>
-            </div> */}
-            <div className="flex justify-center mt-5 text-center mx-auto items-center ">
+            </div>
+            {/* <div className="flex justify-center mt-5 text-center mx-auto items-center ">
               <div>
              
                 <a
@@ -383,7 +383,7 @@ function Header() {
                   Registration Closed
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         )}
       </header>
