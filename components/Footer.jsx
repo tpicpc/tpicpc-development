@@ -133,7 +133,7 @@ function Footer() {
                         <a target="_blank" href="https://www.linkedin.com/company/tpicpc/"><i
                                 className="fa-brands fa-linkedin-in hover:text-cpcRed text-2xl p-3 text-white"></i></a> */}
             </div>
-            <div className="text-center mt-5">
+            {/* <div className="text-center mt-5">
               <a
                 target="_blank"
                 href="https://www.facebook.com/groups/thakurgaonpolytechnicinstituteofficial"
@@ -142,7 +142,7 @@ function Footer() {
                   Tpi Official Group
                 </h1>
               </a>
-            </div>
+            </div> */}
             <div className="text-center mt-5">
               <a target="_blank" href="https://www.facebook.com/groups/tpicpc">
                 <h1 className="text-white text-xl hover:text-primary hover:underline">
