@@ -60,7 +60,7 @@ function Header() {
                   <a
                     className="cursor-pointer md:px-2 text-2xl mt-2"
                     target="_blank"
-                    href="https://www.facebook.com/tpicpc"
+                    href="https://www.facebook.com/TPICPCThakurgonPolytechnicInstitute"
                   >
                     <svg
                       className="h-6 w-6"
@@ -261,7 +261,7 @@ function Header() {
                 <a
                   className="cursor-pointer md:px-2 text-2xl mt-2"
                   target="_blank"
-                  href="https://www.facebook.com/tpicpc"
+                  href="https://www.facebook.com/TPICPCThakurgonPolytechnicInstitute"
                 >
                   <svg
                     className="h-6 w-6"
