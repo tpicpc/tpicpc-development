@@ -1,5 +1,10 @@
 import "../../styles/globals.css";
 import "../../styles/custom.css";
+import { Ubuntu } from 'next/font/google'
+ const ubuntu = Ubuntu({
+  weight: '400',
+  subsets: ['latin'],
+})
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
@@ -20,10 +25,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <head />
-      <body>
+      <body  className={ubuntu.className}>
+        <div className="overflow-hidden">
         <Header />
         {children}
         <Footer />
+        </div>
+       
       </body>
     </html>
   );

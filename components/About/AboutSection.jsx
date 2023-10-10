@@ -2,7 +2,7 @@ function AboutSection() {
   return (
     <>
       <section className="text-gray-600 body-font">
-        <div className="container flex px-5 py-24 md:flex-col-reverse flex-col-reverse lg:flex-row items-center">
+        <div className="w-full  flex px-5 md:px-16 py-24 md:flex-col-reverse flex-col-reverse lg:flex-row items-center">
           <div className="lg:w-4/5">
             <p className="mt-8 text-justify md:text-justify lg:text-justify lg:mr-12">
               Welcome to the TPI Computer Programming Club! We are a group of
@@ -31,7 +31,7 @@ function AboutSection() {
       </section>
 
       <section className="text-gray-600 body-font">
-        <div className="container flex px-5 py-24 md:flex-col flex-col lg:flex-row items-center">
+        <div className="flex px-5 md:px-16 py-24 md:flex-col flex-col lg:flex-row items-center">
           <div className="w-full lg:mr-10">
             <img
               className="object-cover object-center rounded lg:w-[700px] lg:h-400 mt-5"

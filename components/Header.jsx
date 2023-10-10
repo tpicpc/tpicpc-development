@@ -1,17 +1,18 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-
-// https://www.svgrepo.com/svg/473701/linkedin     this link to collect svg icons
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <header className="bg-white border-primary border-b-[2px] sticky top-0 z-50 ">
-        <div className={`${isOpen && "border-primary border-b-[2px]"}  md:border-none`}>
-          <nav className="container bg-white flex justify-between items-center  ">
+      <header className="bg-white  sticky top-0 z-50">
+        <div
+          className={`${
+            isOpen && ""
+          }  md:border-none`}
+        >
+          <nav className="w-full px-5 md:px-16 bg-white flex justify-between items-center  ">
             <div className="flex items-center justify-center">
               <Link href="/">
                 <img
@@ -23,10 +24,10 @@ function Header() {
             </div>
 
             <div className="hidden md:flex">
-              <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-6">
+              <ul className="flex md:flex-row flex-col md:items-center gap-10">
                 <li>
                   <Link
-                    className="hover:text-primary  decoration-2 font-bold"
+                    className="hover:text-orange-500  decoration-2 font-bold"
                     href="/"
                   >
                     Home
@@ -34,7 +35,15 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    className="hover:text-primary decoration-2 font-bold"
+                    className="hover:text-orange-500  decoration-2 font-bold"
+                    href="/about"
+                  >
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="hover:text-orange-500 decoration-2 font-bold"
                     href="/team"
                   >
                     Team
@@ -42,7 +51,7 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    className="hover:text-primary  decoration-2 font-bold"
+                    className="hover:text-orange-500  decoration-2 font-bold"
                     href="/blogs"
                   >
                     Blogs
@@ -50,7 +59,7 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    className="hover:text-primary  decoration-2 font-bold"
+                    className="hover:text-orange-500  decoration-2 font-bold"
                     href="/events"
                   >
                     Events
@@ -119,7 +128,7 @@ function Header() {
                     href="https://www.instagram.com/tpicpc"
                   >
                     <svg
-                      className="w-6 h-6  hover:text-primary"
+                      className="w-6 h-6  hover:text-orange-500"
                       viewBox="0 0 16 16"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="#000000"
@@ -138,7 +147,7 @@ function Header() {
                       version="1.1"
                       id="Capa_1"
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6  hover:text-primary"
+                      className="w-6 h-6  hover:text-orange-500"
                       viewBox="0 0 96.875 96.875"
                     >
                       <g>
@@ -160,12 +169,12 @@ function Header() {
               <a
                 href="https://forms.gle/DasAW1sHs5RfbYNb9"
                 target="_blank"
-                className="hidden md:flex bg-primary text-white px-5 py-2 rounded-full hover:bg-secondary animate-ping absolute h-10 w-[100px]"
+                className="hidden md:flex bg-gradient-to-r from-[#B32A1C] to-[#FBBA31] text-white px-5 py-2 rounded-full hover:bg-secondary animate-ping absolute h-10 w-[100px]"
               ></a>
               <a
                 href="https://forms.gle/DasAW1sHs5RfbYNb9"
                 target="_blank"
-                className="hidden md:flex bg-primary text-white px-5 py-2 rounded-full hover:bg-secondary relative "
+                className="hidden md:flex bg-gradient-to-r from-[#B32A1C] to-[#FBBA31] text-white px-5 py-2 rounded-full hover:bg-secondary relative "
               >
                 Join Now
               </a>
@@ -223,8 +232,8 @@ function Header() {
             <ul className="flex flex-col justify-center gap-4 items-center ">
               <li>
                 <Link
-                onClick={() => setIsOpen(!isOpen)}
-                  className="hover:text-primary  decoration-2 font-bold"
+                  onClick={() => setIsOpen(!isOpen)}
+                  className="hover:text-orange-500  decoration-2 font-bold"
                   href="/"
                 >
                   Home
@@ -232,8 +241,17 @@ function Header() {
               </li>
               <li>
                 <Link
-                onClick={() => setIsOpen(!isOpen)}
-                  className="hover:text-primary decoration-2 font-bold"
+                  onClick={() => setIsOpen(!isOpen)}
+                  className="hover:text-orange-500  decoration-2 font-bold"
+                  href="/about"
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  onClick={() => setIsOpen(!isOpen)}
+                  className="hover:text-orange-500 decoration-2 font-bold"
                   href="/team"
                 >
                   Team
@@ -241,8 +259,8 @@ function Header() {
               </li>
               <li>
                 <Link
-                onClick={() => setIsOpen(!isOpen)}
-                  className="hover:text-primary  decoration-2 font-bold"
+                  onClick={() => setIsOpen(!isOpen)}
+                  className="hover:text-orange-500  decoration-2 font-bold"
                   href="/blogs"
                 >
                   Blogs
@@ -250,8 +268,8 @@ function Header() {
               </li>
               <li>
                 <Link
-                onClick={() => setIsOpen(!isOpen)}
-                  className="hover:text-primary  decoration-2 font-bold"
+                  onClick={() => setIsOpen(!isOpen)}
+                  className="hover:text-orange-500  decoration-2 font-bold"
                   href="/events"
                 >
                   Events
@@ -320,7 +338,7 @@ function Header() {
                   href="https://www.instagram.com/tpicpc"
                 >
                   <svg
-                    className="w-6 h-6  hover:text-primary"
+                    className="w-6 h-6  hover:text-orange-500"
                     viewBox="0 0 16 16"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="#000000"
@@ -339,7 +357,7 @@ function Header() {
                     version="1.1"
                     id="Capa_1"
                     xmlns="http://www.w3.org/2000/svg"
-                    className="w-6 h-6  hover:text-primary"
+                    className="w-6 h-6  hover:text-orange-500"
                     viewBox="0 0 96.875 96.875"
                   >
                     <g>
@@ -361,16 +379,30 @@ function Header() {
                 <a
                   href="https://forms.gle/DasAW1sHs5RfbYNb9"
                   target="_blank"
-                  className="flex md:hidden items-center bg-primary text-white px-5 py-2 rounded-full hover:bg-secondary animate-ping absolute h-10 w-[100px]"
+                  className="flex md:hidden items-center bg-gradient-to-r from-[#B32A1C] to-[#FBBA31] text-white px-5 py-2 rounded-full hover:bg-secondary animate-ping absolute h-10 w-[100px]"
                 ></a>
                 <a
                   href="https://forms.gle/DasAW1sHs5RfbYNb9"
                   target="_blank"
-                  className="flex md:hidden bg-primary text-white px-5 py-2 rounded-full hover:bg-secondary relative "
+                  className="flex md:hidden bg-gradient-to-r from-[#B32A1C] to-[#FBBA31] text-white px-5 py-2 rounded-full hover:bg-secondary relative "
                 >
                   Join Now
                 </a>
               </div>
+            </div>
+            <div className="flex justify-center mt-5 text-center mx-auto items-center">
+              <a
+                href="https://forms.gle/DasAW1sHs5RfbYNb9"
+                target="_blank"
+                className="hidden md:flex bg-gradient-to-r from-[#B32A1C] to-[#FBBA31] text-white px-5 py-2 rounded-full hover:bg-secondary animate-ping absolute h-10 w-[100px]"
+              ></a>
+              <a
+                href="https://forms.gle/DasAW1sHs5RfbYNb9"
+                target="_blank"
+                className="hidden md:flex bg-gradient-to-r from-[#B32A1C] to-[#FBBA31] text-white px-5 py-2 rounded-full hover:bg-secondary relative "
+              >
+                Join Now
+              </a>
             </div>
             {/* <div className="flex justify-center mt-5 text-center mx-auto items-center ">
               <div>

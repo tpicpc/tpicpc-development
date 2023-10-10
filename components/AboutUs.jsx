@@ -4,7 +4,7 @@ import React from "react";
 function AboutUs() {
   return (
     <>
-      <div className="container mt-20">
+      <div className="w-full px-5 md:px-16 mt-20">
         <div
           style={{
             background:
@@ -39,12 +39,12 @@ function AboutUs() {
                   networking and collaboration opportunities.
                 </p>
               </div>
-              <div className="pt-5">
+              <div className="py-8">
                 <Link
                   href="/about"
-                  className="mt-8 bg-primary py-3 px-6  rounded text-white hover:bg-secondary"
+                  
                 >
-                  Read More
+                  <button className="py-2 px-7  bg-gradient-to-r from-[#B32A1C] to-[#FBBA31] rounded font-semibold  text-white hover:-translate-y-2 transition-all duration-500">Read More</button>
                 </Link>
               </div>
             </div>
