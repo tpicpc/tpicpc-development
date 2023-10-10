@@ -51,9 +51,9 @@ const HeroSection = () => {
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
               }}
-              className={` w-full py-24  bg-gray-800 bg-opacity-80 md:h-screen cursor-pointer bg-center bg-blend-multiply  bg-cover`}
+              className={` w-full h-[90vh] bg-gray-800 bg-opacity-80 md:h-screen cursor-pointer bg-center bg-blend-multiply  bg-cover`}
             >
-              <div className="w-full lg:w-1/2 px-5 md:px-20 pt-5 text-white space-y-5">
+              <div className="w-full lg:w-1/2 px-5 md:px-20 pt-10 md:pt-28 text-white space-y-5">
                 <h2 className="text-2xl font-semibold">
                   Thakurgaon Polytechnic Institute
                 </h2>
@@ -89,9 +89,9 @@ const HeroSection = () => {
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
               }}
-              className={` w-full py-24 bg-gray-800 bg-opacity-80 md:h-screen cursor-pointer bg-center bg-blend-multiply flex justify-end  bg-cover`}
+              className={` w-full h-[90vh] bg-gray-800 bg-opacity-80 md:h-screen cursor-pointer bg-center bg-blend-multiply flex justify-end  bg-cover`}
             >
-              <div className="w-full lg:w-1/2  px-5 md:px-20 pt-5 text-white space-y-5">
+              <div className="w-full lg:w-1/2  px-5 md:px-20 pt-10 md:pt-28 text-white space-y-5">
                 <h2 className="text-2xl font-semibold">
                 Thakurgaon Polytechnic Institute Computer Programming Club
                 </h2>
@@ -105,7 +105,7 @@ const HeroSection = () => {
                 In the event, Duetian gave lectures on Competitive Programming, Higher study related and career guidelines related topics.
                 </p>
                 <div>
-                <Link  href={'/about'}>
+                <Link  href={'/events'}>
                 <button className="py-2 px-7  bg-gradient-to-r from-[#B32A1C] to-[#FBBA31] rounded font-semibold  text-white hover:-translate-y-2 transition-all duration-500">
                   Read More
                 </button>
