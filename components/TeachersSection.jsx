@@ -40,7 +40,7 @@ function TeachersSection() {
     ]
   };
   return (
-    <section className="w-full px-5  py-5 overflow-hidden">
+    <section className="w-full px-5 md:px-16  py-5 overflow-hidden">
       <div
          style={{
           background:
