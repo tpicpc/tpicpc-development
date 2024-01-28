@@ -58,7 +58,7 @@ const Team2023 = () => {
       className="flex flex-col text-center w-full mt-20 mb-10 py-2"
     >
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-        Meet The Team 2023
+        Meet The Team 2024
       </h1>
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
         The core members of TPI Computer & Programming Club
